@@ -6,14 +6,14 @@ public class QuestionBank { // pour ce tuto on ne va pas chercher des questions 
         return Arrays.asList(
                 // on créé une nouvelle instance de notre classe Question qui prend comme paramètre pour rappel : une string, une liste de string, et un int
                 new Question(
-                        "When did the first man land on the moon?",
+                        "Which artist sold the most albums?",
                         Arrays.asList(
-                                "1958",
-                                "1962",
-                                "1967",
-                                "1969"
+                                "ACDC",
+                                "Nickelback",
+                                "The Beatles",
+                                "Madonna"
                         ),
-                        3
+                        2
                 ),
                 new Question(
                         "When did the first man land on the moon?",
@@ -36,7 +36,7 @@ public class QuestionBank { // pour ce tuto on ne va pas chercher des questions 
                         3
                 ),
                 new Question(
-                        "Who painteddid the Mona Lisa paint?",
+                        "Who painted the Mona Lisa?",
                         Arrays.asList(
                                 "Michelangelo",
                                 "Leonardo Da Vinci",
