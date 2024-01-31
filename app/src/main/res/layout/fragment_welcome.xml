@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/cardview_light_background"
+    tools:context=".ui.welcome.WelcomeFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:text="Welcome to\nSuperQuiz!\n(by Victor)"
+        android:layout_margin="60dp"
+        android:padding="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="What's your name?"
+        android:layout_margin="0dp"/>
+    <EditText
+        android:id="@+id/usrnameEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="48dp"
+        android:hint="Please type your name"/>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="80dp"
+        android:paddingHorizontal="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        android:text="Let's play" />
+
+
+
+</LinearLayout>
